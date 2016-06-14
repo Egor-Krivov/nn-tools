@@ -17,7 +17,7 @@ class BaseModelFitter(metaclass=ABCMeta):
     @property
     @abstractmethod
     def make_model_builder(self):
-        """Returns method that cam build current model copy."""
+        """Returns method that can build current model's copy."""
 
 
 class BestValController:
