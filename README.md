@@ -1,2 +1,2 @@
-# time-series
-Repository for time series machine learning
+# nn-tools
+Repository for neural networks machine learning
