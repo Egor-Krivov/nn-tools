@@ -24,6 +24,8 @@ if __name__ == '__main__':
             r = subprocess.run(['python', script]).returncode
             end = time.time()
             print('return code is {}, time {}'.format(r, end-start))
+            if r == 0:
+                break
 
     except KeyboardInterrupt:
         print('\nInterrupted by keyboard')
