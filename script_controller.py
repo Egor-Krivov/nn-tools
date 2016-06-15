@@ -18,7 +18,6 @@ if __name__ == '__main__':
     attempts = args.attempts
 
     try:
-        r = 1
         for attempt in range(attempts):
             start = time.time()
             r = subprocess.run(['python', script]).returncode
