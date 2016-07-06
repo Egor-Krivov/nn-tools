@@ -1,2 +1,2 @@
 # nn-tools
-Repository for neural networks machine learning
+Repository for machine learning with neural networks
